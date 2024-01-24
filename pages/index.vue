@@ -6,12 +6,18 @@
         <ExploreSlider />
       </div>
     </div>
-    <HoneymoonPackages />
+    <HoneymoonPackages ref="target1" />
   </div>
 </template>
 
 <script setup>
+import { fadeSlideY } from "../components/motionVariants";
+
 useHead({
   title: "Home Page",
 });
+
+const target1 = ref();
+
+const motionInstance1 = useMotion(target1, fadeSlideY);
 </script>

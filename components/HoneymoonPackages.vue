@@ -18,7 +18,9 @@
         since the 1500s
       </div>
     </div>
-    <div class=""></div>
+    <div class="flex flex-row gap-4 justify-center p-5">
+      <HoneymoonCard />
+    </div>
   </nav>
 </template>
 

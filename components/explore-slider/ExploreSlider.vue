@@ -1,6 +1,4 @@
 <script setup>
-import ExploreSliderHeader from "../explore-slider/ExploreSliderHeader.vue";
-import ExploreSliderItem from "../explore-slider/ExploreSliderItem.vue";
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import Glide from "@glidejs/glide";
 import { onMounted } from "vue";

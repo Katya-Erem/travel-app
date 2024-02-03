@@ -5,17 +5,13 @@
         <img src="../images/logo.png" class="w-20" />
       </div>
       <div class="m-auto flex">
-        <ul class="flex gap-8">
+        <ul class="flex gap-10">
           <li>
             <NuxtLink to="/" class="nav-link hover:text-yellow-400"
               >Home</NuxtLink
             >
           </li>
-          <li>
-            <NuxtLink to="/about" class="nav-link hover:text-yellow-400"
-              >About</NuxtLink
-            >
-          </li>
+
           <li>
             <NuxtLink to="/day-tours" class="nav-link hover:text-yellow-400"
               >Day Tours</NuxtLink

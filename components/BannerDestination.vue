@@ -12,7 +12,7 @@
         <Header />
         <div class="min-w-full min-h-full text-center my-28">
           <h1 class="text-white text-opacity-90 font-bold text-6xl">
-            1 Day Tours
+            Destination
           </h1>
         </div>
       </div>

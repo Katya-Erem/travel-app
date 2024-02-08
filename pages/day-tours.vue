@@ -1,7 +1,7 @@
 <template>
   <div>
     <BannerDayTours />
-    <div>
+    <div class="px-20">
       <div
         class="py-[60px] flex-col items-center gap-[18px] flex max-w-[872px] mx-auto"
       >
@@ -22,13 +22,13 @@
           since the 1500s
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-2 p-4">
+      <div class="grid grid-cols-2 gap-2">
         <img
           src="../images/Rectangle1.png"
           alt=""
           class="w-[759px] rounded-[20px]"
         />
-        <div class="">
+        <div>
           <img
             src="../images/Rectangle2.png"
             alt=""
@@ -40,46 +40,46 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="">
-      <div class="p-16 flex-col gap-[18px] flex max-w-[872px]">
-        <h2 class="text-black text-3xl font-extrabold">1 Day Tours</h2>
-        <div class="w-[200px] h-px relative">
-          <div
-            class="w-[200px] h-0 left-0 top-[0.98px] absolute border-2 border-neutral-200"
-          ></div>
-          <div
-            class="w-[100px] h-0 left-[50px] top-0 absolute border-2 border-amber-500"
-          ></div>
-        </div>
-        <div>
-          <p class="pb-4">
-            Any day trip will not only help you save time but money as well. As
-            you can see, in Pakistan’s most popular tourist destination,
-            accommodation comes at a hefty price tag. Multi-day trips require a
-            hotel/resort, evenfancier ones, and an overnight stay on board,
-            while on a day trip, you can return to your accommodation overnight
-            or move to a cheaper area. If budget is one of your concerns, then
-            any day trip from Pakistan is theperfect solution. Plus, if you’re
-            lucky enough to have a good trip, you’ll be able to experience
-            plenty of activities, both on land and in the valleys. A
-            well-designed day trip will give you a quick and deep insight into
-            these marvelouslandscapes, bewitching mountains, and UNESCO World
-            Heritage Site. Sometimes it doesn’t matter how many days you have;
-            what matters is the things you can try.
-          </p>
-          <div>
-            Our hot-selling one-day tour packages are:
-            <div class="font-semibold">
-              1 Day Murree Hills, Patriata & Islamabad Tour
-              <br />
-              1 Day Taxila Museum & Khanpur Dam Tour
-              <br />
-              1 Day Khewra Salt Mines & Katas Raj Temple Tour
-              <br />
-              1 Day Pakistan Monument, Lok Virsa & Margalla Hills Tour
-              <br />
-              1 Day Murree, Nathia Gali & Ayubia Tour
+      <div class="py-24">
+        <div class="flex-col gap-[18px] flex max-w-[872px]">
+          <h2 class="text-black text-3xl font-extrabold">1 Day Tours</h2>
+          <div class="w-[200px] h-px relative">
+            <div
+              class="w-[200px] left-0 top-[0.98px] absolute border-2 border-neutral-200"
+            ></div>
+            <div
+              class="w-[100px] left-[50px] top-0 absolute border-2 border-amber-500"
+            ></div>
+          </div>
+          <div class="flex flex-wrap font-medium">
+            <p class="pb-4">
+              Any day trip will not only help you save time but money as well.
+              As you can see, in Pakistan’s most popular tourist destination,
+              accommodation comes at a hefty price tag. Multi-day trips require
+              a hotel/resort, evenfancier ones, and an overnight stay on board,
+              while on a day trip, you can return to your accommodation
+              overnight or move to a cheaper area. If budget is one of your
+              concerns, then any day trip from Pakistan is theperfect solution.
+              Plus, if you’re lucky enough to have a good trip, you’ll be able
+              to experience plenty of activities, both on land and in the
+              valleys. A well-designed day trip will give you a quick and deep
+              insight into these marvelouslandscapes, bewitching mountains, and
+              UNESCO World Heritage Site. Sometimes it doesn’t matter how many
+              days you have; what matters is the things you can try.
+            </p>
+            <div>
+              Our hot-selling one-day tour packages are:
+              <div class="font-semibold">
+                1 Day Murree Hills, Patriata & Islamabad Tour
+                <br />
+                1 Day Taxila Museum & Khanpur Dam Tour
+                <br />
+                1 Day Khewra Salt Mines & Katas Raj Temple Tour
+                <br />
+                1 Day Pakistan Monument, Lok Virsa & Margalla Hills Tour
+                <br />
+                1 Day Murree, Nathia Gali & Ayubia Tour
+              </div>
             </div>
           </div>
         </div>

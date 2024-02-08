@@ -1,5 +1,17 @@
 <template>
-  <div class="w-72 bg-white shadow-2xl p-2">
+  <li>
+    <div class="w-72 bg-white shadow-2xl p-2">
+      <img :src="card.img" alt="" class="pb-1 brightness-75" />
+      <div class="p-2">
+        <h2 class="font-semibold text-lg">{{ card.name }}</h2>
+        <span>
+          <p>{{ card.signature }}</p>
+          <Rating :value="card.estimation" />
+        </span>
+      </div>
+    </div>
+  </li>
+  <!--  <div class="w-72 bg-white shadow-2xl p-2">
     <img
       src="../public/images/honeymoon1.png"
       alt=""
@@ -11,7 +23,7 @@
         <p>10 Days 9 Nights</p>
       </span>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script lang="ts" setup>

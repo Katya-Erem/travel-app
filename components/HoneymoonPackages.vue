@@ -18,12 +18,16 @@
         since the 1500s
       </div>
     </div>
-    <div class="flex flex-row gap-4 justify-center p-5">
-      <HoneymoonCard />
+    <div class="gap-4 p-5">
+      <ul>
+        <HoneymoonCard v-for="card in HoneyMoonPackageData" :card="card" />
+      </ul>
     </div>
   </nav>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { HoneyMoonPackageData } from "./HomeymoonPackagesData";
+</script>
 
 <style scoped></style>

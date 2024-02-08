@@ -8,4 +8,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ["@vueuse/motion/nuxt"],
+  app: {
+    pageTransition: {
+      name: "fade",
+      mode: "out-in",
+    },
+  },
 });

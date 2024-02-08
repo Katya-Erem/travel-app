@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
+    "@vueuse/motion": "^2.0.0",
     "vue-ionicons": "^3.0.5"
   }
 }

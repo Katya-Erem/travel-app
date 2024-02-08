@@ -1,11 +1,19 @@
 <script setup>
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import Glide from "@glidejs/glide";
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
 import { exploreSliderData } from "./eploreSliderData";
 
 import IosArrowForwardIcon from "vue-ionicons/dist/ios-arrow-forward.vue";
 import IosArrowBackIcon from "vue-ionicons/dist/ios-arrow-back.vue";
+
+import { fadeSlideY } from "../motionVariants";
+
+const target1 = ref();
+const target2 = ref();
+
+const motionInstance1 = useMotion(target1, fadeSlideY);
+const motionInstance2 = useMotion(target2, fadeSlideY);
 
 const exploreSliderConfig = {
   type: "carousel",
@@ -30,8 +38,8 @@ onMounted(() => {
 
 <template>
   <div>
-    <ExploreSliderHeader />
-    <div class="glide explore-slider relative mt-10">
+    <ExploreSliderHeader ref="target1" />
+    <div class="glide explore-slider relative mt-10" ref="target2">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
           <ExploreSliderItem v-for="item in exploreSliderData" :item="item" />

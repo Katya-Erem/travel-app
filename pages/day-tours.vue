@@ -22,21 +22,41 @@
           since the 1500s
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-2">
-        <img
-          src="../images/Rectangle1.png"
-          alt=""
-          class="w-[759px] rounded-[20px]"
-        />
-        <div>
-          <img
-            src="../images/Rectangle2.png"
-            alt=""
-            class="w-[866px] rounded-[20px]"
-          />
-          <div class="flex flex-row w-72 gap-1">
-            <img src="../images/Rectangle3.png" alt="" class="w-[412px]" />
-            <img src="../images/Rectangle4.png" alt="" class="w-[439px]" />
+      <div class="grid-container">
+        <div class="image-1">
+          <img src="/images/Rectangle 1.png" alt="" />
+          <div class="overlay">
+            <h4>1 Day</h4>
+            <p>
+              Pakistan Monument, Lok Virsa & Margalla Hills of Islamabad Tour
+            </p>
+          </div>
+        </div>
+        <div class="image-2">
+          <img src="/images/Rectangle 2.png" alt="" />
+          <div class="overlay">
+            <h4>2 Day</h4>
+            <p>
+              Pakistan Monument, Lok Virsa & Margalla Hills of Islamabad Tour
+            </p>
+          </div>
+        </div>
+        <div class="image-3">
+          <img src="/images/Rectangle 3.png" alt="" />
+          <div class="overlay">
+            <h4>3 Day</h4>
+            <p>
+              Pakistan Monument, Lok Virsa & Margalla Hills of Islamabad Tour
+            </p>
+          </div>
+        </div>
+        <div class="image-4">
+          <img src="/images/Rectangle 4.png" alt="" />
+          <div class="overlay">
+            <h4>4 Day</h4>
+            <p>
+              Pakistan Monument, Lok Virsa & Margalla Hills of Islamabad Tour s
+            </p>
           </div>
         </div>
       </div>
@@ -51,36 +71,48 @@
               class="w-[100px] left-[50px] top-0 absolute border-2 border-amber-500"
             ></div>
           </div>
-          <div class="flex flex-wrap font-medium">
-            <p class="pb-4">
-              Any day trip will not only help you save time but money as well.
-              As you can see, in Pakistan’s most popular tourist destination,
-              accommodation comes at a hefty price tag. Multi-day trips require
-              a hotel/resort, evenfancier ones, and an overnight stay on board,
-              while on a day trip, you can return to your accommodation
-              overnight or move to a cheaper area. If budget is one of your
-              concerns, then any day trip from Pakistan is theperfect solution.
-              Plus, if you’re lucky enough to have a good trip, you’ll be able
-              to experience plenty of activities, both on land and in the
-              valleys. A well-designed day trip will give you a quick and deep
-              insight into these marvelouslandscapes, bewitching mountains, and
-              UNESCO World Heritage Site. Sometimes it doesn’t matter how many
-              days you have; what matters is the things you can try.
-            </p>
+          <div class="flex w-full flex-row flex-grow font-medium">
             <div>
-              Our hot-selling one-day tour packages are:
-              <div class="font-semibold">
-                1 Day Murree Hills, Patriata & Islamabad Tour
-                <br />
-                1 Day Taxila Museum & Khanpur Dam Tour
-                <br />
-                1 Day Khewra Salt Mines & Katas Raj Temple Tour
-                <br />
-                1 Day Pakistan Monument, Lok Virsa & Margalla Hills Tour
-                <br />
-                1 Day Murree, Nathia Gali & Ayubia Tour
+              <p class="pb-4">
+                Any day trip will not only help you save time but money as well.
+                As you can see, in Pakistan’s most popular tourist destination,
+                accommodation comes at a hefty price tag. Multi-day trips
+                require a hotel/resort, evenfancier ones, and an overnight stay
+                on board, while on a day trip, you can return to your
+                accommodation overnight or move to a cheaper area. If budget is
+                one of your concerns, then any day trip from Pakistan is
+                theperfect solution. Plus, if you’re lucky enough to have a good
+                trip, you’ll be able to experience plenty of activities, both on
+                land and in the valleys. A well-designed day trip will give you
+                a quick and deep insight into these marvelouslandscapes,
+                bewitching mountains, and UNESCO World Heritage Site. Sometimes
+                it doesn’t matter how many days you have; what matters is the
+                things you can try.
+              </p>
+              <div>
+                Our hot-selling one-day tour packages are:
+                <div class="font-semibold">
+                  1 Day Murree Hills, Patriata & Islamabad Tour
+                  <br />
+                  1 Day Taxila Museum & Khanpur Dam Tour
+                  <br />
+                  1 Day Khewra Salt Mines & Katas Raj Temple Tour
+                  <br />
+                  1 Day Pakistan Monument, Lok Virsa & Margalla Hills Tour
+                  <br />
+                  1 Day Murree, Nathia Gali & Ayubia Tour
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+        <!-- ! -->
+        <div class="flex">
+          <div class="max-w-md">
+            <img src="/images/Rectangle_5.jpg" alt="" />
+          </div>
+          <div class="max-w-xs max-h-96">
+            <img src="/images/Rectangle_6.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -89,3 +121,33 @@
 </template>
 
 <script lang="ts" setup></script>
+
+<style scoped>
+.grid-container {
+  @apply grid grid-cols-4 grid-rows-2 gap-4;
+}
+.grid-container > div {
+  @apply relative  overflow-hidden;
+}
+
+.image-1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+.image-2 {
+  grid-column: 3 / 5;
+}
+img {
+  @apply w-full h-full object-cover rounded-[20px];
+}
+
+.overlay {
+  @apply absolute left-0 bottom-0 w-full h-full text-white p-6 flex flex-col justify-end gap-4 rounded-[20px] bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)];
+}
+.overlay h4 {
+  @apply text-base;
+}
+.overlay p {
+  @apply text-lg font-medium;
+}
+</style>

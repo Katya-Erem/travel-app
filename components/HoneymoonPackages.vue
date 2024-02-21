@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="pb-28 lg:max-w-[]">
     <div class="flex-col items-center gap-[18px] flex max-w-[872px] mx-auto">
       <h2 class="text-center text-black text-[38px] font-bold">
         Honeymoon Packages From Pakistan
@@ -18,10 +18,10 @@
         since the 1500s
       </div>
     </div>
-    <div class="gap-4 p-5">
-      <ul>
+    <div class="p-5">
+      <div class="flex flex-row gap-4 items-center justify-center">
         <HoneymoonCard v-for="card in HoneyMoonPackageData" :card="card" />
-      </ul>
+      </div>
     </div>
   </nav>
 </template>

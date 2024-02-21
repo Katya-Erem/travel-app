@@ -11,12 +11,15 @@ const props = defineProps(["item"]);
       <Rating :value="item.rating" />
     </div>
     <p>{{ item.description }}</p>
+    <div class="badge" v-if="item.badge">
+      {{ item.badge }}
+    </div>
   </li>
 </template>
 
 <style>
 .explore-item {
-  @apply bg-white shadow-md rounded-xl flex flex-col gap-2 p-0;
+  @apply bg-white shadow-md rounded-xl flex flex-col gap-2 p-0 relative;
 }
 .explore-item img {
   @apply rounded-xl h-[300px] 2xl:h-[400px] object-cover;
@@ -37,5 +40,11 @@ const props = defineProps(["item"]);
 .explore-item.glide__slide--active .title,
 .explore-item.glide__slide--active p {
   @apply flex;
+}
+.badge {
+  @apply absolute top-5 left-0 bg-orange-500 py-2 px-4 uppercase text-white rounded-r-md;
+}
+.explore-item.glide__slide--active .badge {
+  @apply top-8 left-4;
 }
 </style>

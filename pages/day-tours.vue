@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="py-24">
+      <div class="py-24 flex gap-14">
         <div class="flex-col gap-[18px] flex max-w-[872px]">
           <h2 class="text-black text-3xl font-extrabold">1 Day Tours</h2>
           <div class="w-[200px] h-px relative">
@@ -107,11 +107,13 @@
           </div>
         </div>
         <!-- ! -->
-        <div class="flex">
-          <div class="max-w-md">
+        <div class="flex relative shrink-0">
+          <div class="max-w-md relative">
             <img src="/images/Rectangle_5.jpg" alt="" />
           </div>
-          <div class="max-w-xs max-h-96">
+          <div
+            class="max-w-xs max-h-96 absolute bottom-0 -left-[45px] border border-zinc-100 rounded-[20px]"
+          >
             <img src="/images/Rectangle_6.jpg" alt="" />
           </div>
         </div>

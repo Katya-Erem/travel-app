@@ -7,6 +7,7 @@
       </div>
     </div>
     <HoneymoonPackages ref="target1" />
+    <WhyChooseUs />
   </div>
 </template>
 

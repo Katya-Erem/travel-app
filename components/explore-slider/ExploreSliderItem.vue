@@ -42,7 +42,7 @@ const props = defineProps(["item"]);
   @apply flex;
 }
 .badge {
-  @apply absolute top-5 left-0 bg-orange-500 py-2 px-4 uppercase text-white rounded-r-md;
+  @apply absolute top-5 left-0 bg-amber-500 py-1 px-4  uppercase text-white rounded-r-md;
 }
 .explore-item.glide__slide--active .badge {
   @apply top-8 left-4;

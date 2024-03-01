@@ -24,6 +24,8 @@
       </div>
       <div></div>
     </div>
+    <!-- сетка картинок -->
+    <Destinations />
   </div>
 </template>
 

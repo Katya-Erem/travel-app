@@ -4,7 +4,7 @@
       <img src="../images/banner.png" alt="" class="w-full brightness-50" />
       <div class="absolute min-w-full">
         <Header />
-        <div class="absolute min-w-full my-11">
+        <div class="absolute min-w-full min-h-full">
           <div class="flex flex-col text-center gap-5">
             <h1 class="text-white text-6xl font-bold p-12">
               See Pakistan Tours

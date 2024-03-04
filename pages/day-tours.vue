@@ -106,7 +106,6 @@
             </div>
           </div>
         </div>
-        <!-- ! -->
         <div class="flex relative shrink-0">
           <div class="max-w-md relative">
             <img src="/images/Rectangle_5.jpg" alt="" />

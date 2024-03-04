@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="p-5">
-      <div class="flex flex-row gap-4 items-center justify-center">
+      <div class="flex flex-row gap-4 flex-wrap items-center justify-center">
         <HoneymoonCard v-for="card in HoneyMoonPackageData" :card="card" />
       </div>
     </div>

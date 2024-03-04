@@ -8,10 +8,10 @@
       <p>{{ itemChoose.description }}</p>
     </div>
     <div>
-      <a :href="itemChoose.link">
+      <NuxtLink :to="itemChoose.link">
         Learn More
         <img src="/images/learn_more.jpg" alt="" />
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>

@@ -12,10 +12,10 @@
                 hassle. We are providing the best competitive tour services.
               </h3>
               <div class="flex m-auto justify-between h-11 px-8 gap-8">
-                <!-- <WhyChooseUsItem
+                <WhyChooseUsItem
                   v-for="itemChoose in WhyChooseUsData"
-                  :item="itemChoose"
-                /> -->
+                  :itemChoose="itemChoose"
+                />
               </div>
             </div>
           </div>
@@ -25,6 +25,8 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { WhyChooseUsData } from "./WhyChooseUsData";
+</script>
 
 <style scoped></style>

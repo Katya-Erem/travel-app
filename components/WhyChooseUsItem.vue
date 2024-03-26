@@ -1,23 +1,29 @@
 <template>
-  <div class="bg-white">
-    <div>
-      <img :src="itemChoose.image" alt="" />
-    </div>
-    <div>
-      <h3>{{ itemChoose.name }}</h3>
-      <p>{{ itemChoose.description }}</p>
-    </div>
-    <div>
-      <NuxtLink :to="itemChoose.link">
-        Learn More
-        <img src="/images/learn_more.jpg" alt="" />
-      </NuxtLink>
+  <div class="max-w-sm text-black container">
+    <div
+      class="flex flex-col gap-4 text-start p-7 bg-white shadow-lg rounded-xl"
+    >
+      <div class="justify-start">
+        <img :src="itemChoose.image" alt="" class="rounded-lg w-32" />
+      </div>
+      <div class="flex flex-col">
+        <h3 class="text-2xl font-bold py-3">{{ itemChoose.name }}</h3>
+        <p>{{ itemChoose.description }}</p>
+      </div>
+      <div class="pt-3">
+        <NuxtLink :to="itemChoose.link">
+          <div class="flex items-center gap-1">
+            Learn More
+            <img src="/images/learn_more.jpg" alt="" />
+          </div>
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
 
-<script lang="ts" setup>
-const propsChooseItem = defineProps(["itemChoose"]);
+<script setup>
+const props = defineProps(["itemChoose"]);
 </script>
 
 <style scoped></style>

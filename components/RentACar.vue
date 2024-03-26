@@ -1,12 +1,14 @@
 <template>
   <div class="min-h-screen">
     <RentACarHeader />
-    <!-- <RentACarCard v-for="card in RentACarData" :item="card" /> -->
+    <div class="pt-6 flex gap-9 flex-wrap justify-center">
+      <RentACarCard v-for="card in RentACarData" :card="card" />
+    </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import type { RentACarData } from "./RentACarData";
+import { RentACarData } from "./RentACarData.js";
 </script>
 
 <style scoped></style>

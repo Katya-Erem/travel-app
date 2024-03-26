@@ -1,7 +1,7 @@
 <template>
   <div>
     <BannerDestination />
-    <div>
+    <div class="flex flex-col">
       <div
         class="pt-[60px] flex-col items-center gap-[18px] flex max-w-[872px] mx-auto"
       >
@@ -22,10 +22,11 @@
           since the 1500s
         </div>
       </div>
-      <div></div>
+      <div>
+        <Destinations />
+      </div>
     </div>
-    <!-- сетка картинок -->
-    <Destinations />
+    <TopDestinations />
   </div>
 </template>
 

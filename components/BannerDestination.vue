@@ -1,7 +1,7 @@
 <template>
   <nav class="max-h-full">
     <div class="flex relative">
-      <div class="">
+      <div class="container m-auto max-w-full">
         <img
           src="../images/bannerDayTous.png"
           alt=""

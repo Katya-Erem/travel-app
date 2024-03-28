@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex relative">
+    <div class="flex relative container m-auto max-w-full">
       <div class="min-w-full">
         <img
           src="/images/banner_car_rental.jpg"

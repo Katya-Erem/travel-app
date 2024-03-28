@@ -1,5 +1,5 @@
 <template>
-  <nav class="pb-28 lg:max-w-[]">
+  <nav class="pb-28 container m-auto">
     <div class="flex-col items-center gap-[18px] flex max-w-[872px] mx-auto">
       <h2 class="text-center text-black text-[38px] font-bold">
         Honeymoon Packages From Pakistan

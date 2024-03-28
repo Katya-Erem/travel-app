@@ -1,6 +1,6 @@
 <template>
   <nav class="max-h-full">
-    <div class="flex relative design">
+    <div class="flex relative">
       <img
         src="../images/banner.png"
         alt=""
@@ -55,7 +55,7 @@ useHead({
 </script>
 
 <style scoped>
-.design {
+/* .design {
   @media (min-width: 640px) {
     .container {
       max-width: 640px;
@@ -81,5 +81,5 @@ useHead({
       max-width: 1536px;
     }
   }
-}
+} */
 </style>

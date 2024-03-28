@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-sm text-black container">
     <div
-      class="flex flex-col gap-4 text-start p-7 bg-white shadow-lg rounded-xl"
+      class="flex flex-col gap-7 text-start p-7 bg-white shadow-lg rounded-xl"
     >
       <div class="justify-start">
         <img :src="itemChoose.image" alt="" class="rounded-lg w-32" />

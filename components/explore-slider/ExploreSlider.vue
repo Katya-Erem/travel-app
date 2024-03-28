@@ -37,7 +37,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="container m-auto">
     <ExploreSliderHeader ref="target1" />
     <div class="glide explore-slider relative mt-10" ref="target2">
       <div class="glide__track" data-glide-el="track">

@@ -1,12 +1,14 @@
 <template>
   <div class="bg-slate-50">
-    <BannerHome class="design" />
-    <div class="w-full p-24">
-      <div class="container mx-auto">
-        <ExploreSlider />
+    <BannerHome />
+    <div class="px-44">
+      <div class="w-full p-24">
+        <div class="container mx-auto">
+          <ExploreSlider />
+        </div>
       </div>
+      <HoneymoonPackages ref="target1" class="" />
     </div>
-    <HoneymoonPackages ref="target1" class="" />
     <WhyChooseUs />
   </div>
 </template>

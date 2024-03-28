@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-16 flex-col gap-[18px] flex max-w-[872px] mx-auto text-black min-w-full"
+    class="p-16 flex-col gap-[18px] flex max-w-[872px] mx-auto text-black min-w-full container m-auto"
   >
     <div class="flex flex-col gap-5 pb-3 items-center">
       <h2 class="text-[38px] font-bold">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <BannerDayTours />
-    <div class="px-20">
+    <div class="px-20 container m-auto">
       <div
         class="py-[60px] flex-col items-center gap-[18px] flex max-w-[872px] mx-auto"
       >
@@ -22,7 +22,7 @@
           since the 1500s
         </div>
       </div>
-      <div class="grid-container">
+      <div class="grid-container container m-auto">
         <div class="image-1">
           <img src="/images/Rectangle 1.png" alt="" />
           <div class="overlay">
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="py-24 flex gap-14">
+      <div class="py-24 flex gap-14 container m-auto">
         <div class="flex-col gap-[18px] flex max-w-[872px]">
           <h2 class="text-black text-3xl font-extrabold">1 Day Tours</h2>
           <div class="w-[200px] h-px relative">

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full w-full bg-zinc-900">
+  <div class="min-h-full w-full bg-zinc-900 container m-auto max-w-full">
     <div class="flex flex-row justify-between">
       <div class="p-20">
         <div class="text-white font-light flex flex-col gap-2">

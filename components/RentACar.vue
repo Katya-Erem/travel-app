@@ -1,10 +1,12 @@
 <template>
   <div class="min-h-screen">
-    <RentACarHeader />
-    <div
-      class="pt-6 flex gap-9 flex-wrap justify-center container m-auto max-w-full"
-    >
-      <RentACarCard v-for="card in RentACarData" :card="card" />
+    <div class="">
+      <RentACarHeader />
+      <div
+        class="pt-3 lg:pt-7 xl:pt-10 flex gap-9 flex-wrap justify-center container m-auto max-w-full"
+      >
+        <RentACarCard v-for="card in RentACarData" :card="card" />
+      </div>
     </div>
   </div>
 </template>

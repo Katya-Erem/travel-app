@@ -1,16 +1,16 @@
 <template>
   <div>
     <BannerCarRental />
-    <div class="px-44">
-      <RentACar />
+    <div class="px-10 md:px-24 lg:px-44 flex flex-col items-center">
+      <RentACar class="max-w-[1300px]" />
       <div
-        class="p-16 flex-col gap-[18px] flex max-w-[872px] min-w-full mx-auto container m-auto"
+        class="py-10 lg:p-16 flex-col gap-[18px] flex max-w-[872px] min-w-full m-auto"
       >
-        <h2 class="text-black text-[38px] font-bold">
+        <h2 class="text-black text-3xl lg:text-[38px] font-bold">
           Best Rent A Car In Islamabad Services – Rent A Car In Islamabad,
           Rawalpindi
         </h2>
-        <div class="text-2xl font-medium">
+        <div class="text-lg lg:text-2xl font-light">
           <p>
             See Pakistan Tours now proffer the best Rent a car service in
             Islamabad for your Trip and tours. Islamabad is being well

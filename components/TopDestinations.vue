@@ -1,9 +1,9 @@
 <template>
   <div
-    class="p-16 flex-col gap-[18px] flex max-w-[872px] mx-auto text-black min-w-full container m-auto"
+    class="py-14 px-10 lg:p-16 flex-col gap-[18px] flex max-w-[872px] mx-auto text-black min-w-full container m-auto"
   >
     <div class="flex flex-col gap-5 pb-3 items-center">
-      <h2 class="text-[38px] font-bold">
+      <h2 class="text-3xl lg:text-[38px] font-bold">
         Top Tourist Destinations In Pakistan 2022-23
       </h2>
       <div class="w-[200px] h-px relative">
@@ -15,7 +15,7 @@
         ></div>
       </div>
     </div>
-    <div class="text-2xl font-light">
+    <div class="text-lg lg:text-2xl font-light">
       <div class="flex flex-col flex-wrap">
         <p>
           Here, we will recommend thebest tourist destinations in Pakistan in
@@ -43,29 +43,6 @@
           in the Karakoram Mountains.
         </p>
       </div>
-      <!-- <div class="relative flex shrink-0">
-        <div class="max-w-md absolute -bottom-40 -left-44">
-          <img
-            src="/images/img1.jpg"
-            alt=""
-            class="h-[450px] w-72 object-cover rounded-[70px]"
-          />
-        </div>
-        <div class="relative">
-          <img
-            src="/images/img2.jpg"
-            alt=""
-            class="h-[600px] w-[400px] object-cover rounded-[70px] border border-slate-100"
-          />
-        </div>
-        <div class="absolute -bottom-52 -right-20">
-          <img
-            src="/images/img3.jpg"
-            alt=""
-            class="w-64 h-[430px] object-cover bottom-6 rounded-[70px] border border-slate-100"
-          />
-        </div>
-      </div> -->
       <div class="pt-6 font-semibold">
         <p>
           Here is the list of some most visited travel destinations in Pakistan:

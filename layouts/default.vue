@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="bg-slate-50">
       <slot />
     </div>
     <Footer />

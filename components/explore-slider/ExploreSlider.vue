@@ -38,8 +38,8 @@ onMounted(() => {
 
 <template>
   <div class="container m-auto">
-    <ExploreSliderHeader ref="target1" />
-    <div class="glide explore-slider relative mt-10" ref="target2">
+    <ExploreSliderHeader />
+    <div class="glide explore-slider relative mt-7 lg:mt-10">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
           <ExploreSliderItem v-for="item in exploreSliderData" :item="item" />

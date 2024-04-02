@@ -22,7 +22,7 @@ const props = defineProps(["item"]);
   @apply bg-white shadow-md rounded-xl flex flex-col gap-2 p-0 relative;
 }
 .explore-item img {
-  @apply rounded-xl h-[300px] 2xl:h-[400px] object-cover;
+  @apply rounded-xl h-[200px] md:h-[280px]  lg:h-[300px] xl:h-[300px]  2xl:h-[350px] object-cover;
 }
 .explore-item .title {
   @apply hidden justify-between mt-4;

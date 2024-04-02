@@ -1,26 +1,29 @@
 <template>
-  <nav class="max-h-full">
+  <nav class="max-h-full w-full">
     <div class="flex relative">
       <img
         src="../images/banner.png"
         alt=""
-        class="w-full h-screen object-cover brightness-50"
+        class="w-full h-96 md:h-[400px] lg:h-[500px] xl:h-screen object-cover brightness-50"
       />
       <div class="absolute min-w-full">
         <Header />
-        <!-- <div class="absolute w-full h-full"> -->
         <div
-          class="flex flex-col h-screen text-center items-center justify-center gap-5"
+          class="flex flex-col lg:mt-9 xl:mt-36 text-center items-center justify-center"
         >
-          <h1 class="text-white text-[100px] font-semibold p-12 flex">
+          <h1
+            class="text-white text-4xl sm:text-5xl md:text-[54px] lg:text-[75px] 2xl:text-[100px] lg:my-0 2xl:my-14 font-semibold p-9 sm:p-10 md:p-11 lg:p-12 xl:p-20 2xl:p-28 flex"
+          >
             See Pakistan Tours
           </h1>
           <div class="flex flex-col gap-3">
-            <h3 class="text-yellow-400 font-medium text-4xl p-3">
+            <h3
+              class="text-yellow-400 font-medium text-lg sm:text-xl md:text-2xl xl:text-3xl 2xl:text-4xl p-3"
+            >
               Top Destinations
             </h3>
             <div
-              class="flex m-auto justify-between h-14 bg-stone-50 bg-opacity-60 rounded-full text-stone-950 text-md font-medium px-8 gap-8"
+              class="flex w-[600px] md:w-[750px] lg:w-[850px] xl:w-[1010px] 2xl:w-[1300px] 2xl:gap-16 justify-center h-11 sm:h-9 md:h-10 lg:h-12 xl:h-[52px] bg-stone-50 bg-opacity-60 rounded-full text-stone-950 text-xs md:text-[13px] lg:text-sm xl:text-lg font-medium px-8 gap-2 sm:gap-3 md:gap-5 lg:gap-7"
             >
               <button>Hunza Valley</button>
               <button>Skardu Valley</button>
@@ -32,7 +35,6 @@
             </div>
           </div>
         </div>
-        <!-- </div> -->
       </div>
     </div>
   </nav>
@@ -54,32 +56,4 @@ useHead({
 });
 </script>
 
-<style scoped>
-/* .design {
-  @media (min-width: 640px) {
-    .container {
-      max-width: 640px;
-    }
-  }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-  }
-  @media (min-width: 1024px) {
-    .container {
-      max-width: 1024px;
-    }
-  }
-  @media (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  }
-  @media (min-width: 1536px) {
-    .container {
-      max-width: 1536px;
-    }
-  }
-} */
-</style>
+<style scoped></style>

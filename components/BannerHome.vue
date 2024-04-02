@@ -23,7 +23,7 @@
               Top Destinations
             </h3>
             <div
-              class="flex w-[600px] md:w-[750px] lg:w-[850px] xl:w-[1010px] 2xl:w-[1300px] 2xl:gap-16 justify-center h-11 sm:h-9 md:h-10 lg:h-12 xl:h-[52px] bg-stone-50 bg-opacity-60 rounded-full text-stone-950 text-xs md:text-[13px] lg:text-sm xl:text-lg font-medium px-8 gap-2 sm:gap-3 md:gap-5 lg:gap-7"
+              class="max-w-full flex flex-wrap md:w-[750px] lg:w-[850px] xl:w-[1010px] 2xl:w-[1300px] 2xl:gap-16 justify-center h-11 sm:h-9 md:h-10 lg:h-12 xl:h-[52px] bg-stone-50 bg-opacity-60 rounded-full text-stone-950 text-xs md:text-[13px] lg:text-sm xl:text-lg font-medium px-8 gap-2 sm:gap-3 md:gap-5 lg:gap-7"
             >
               <button>Hunza Valley</button>
               <button>Skardu Valley</button>

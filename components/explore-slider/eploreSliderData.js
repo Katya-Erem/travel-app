@@ -1,7 +1,7 @@
 export const exploreSliderData = [
   {
     title: "Swat, Kalam, Malam Jabba",
-    description: "Swat, Kalam, Malam Jabba & Ushu Forest Tour 5 Days 4 Nights",
+    description: "Swat, Kalam, Malam Jabba & Tour 5 Days 4 Nights",
     rating: 4.35,
     image: "/images/1.jpg",
   },

@@ -110,7 +110,7 @@
             </div>
           </div>
         </div>
-        <div class="flex relative shrink-0">
+        <div class="hidden md:flex relative shrink-0">
           <div class="w-60 lg:w-[300px] xl:w-[400px] relative">
             <img src="/images/Rectangle_5.jpg" alt="" class="" />
           </div>
@@ -150,9 +150,9 @@ img {
   @apply absolute left-0 bottom-0 w-full h-full text-white p-3 lg:p-5 flex flex-col justify-end gap-1 lg:gap-2 rounded-[20px] bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)];
 }
 .overlay h4 {
-  @apply text-sm lg:text-base xl:text-xl 2xl:text-2xl;
+  @apply text-xs lg:text-base xl:text-xl 2xl:text-2xl;
 }
 .overlay p {
-  @apply text-[11px] lg:text-sm lg:font-medium xl:text-base 2xl:text-lg;
+  @apply text-[8px] lg:text-sm lg:font-medium xl:text-base 2xl:text-lg;
 }
 </style>

@@ -53,16 +53,17 @@
         </button>
         <div class="flex items-center me-0 px-5 max-h-11">
           <img src="../images/Ellipse1.png" class="pr-2 rounded-full" />
-          <div>
-            <h1 class="text-sm">Dityo Hendyawan</h1>
-            <h4 class="text-xs font-normal opacity-80">Traveler Enthusiast</h4>
+          <div class="">
+            <h1 class="text-xs sm:text-sm">Dityo Hendyawan</h1>
+            <h4 class="text-[11px] sm:text-xs font-normal opacity-80">
+              Traveler Enthusiast
+            </h4>
           </div>
         </div>
       </div>
-      <!-- <div class="flex"> -->
       <div
         v-motion-slide-top
-        class="lg:hidden flex justify-center w-full gap-8 px-8"
+        class="lg:hidden flex flex-col sm:flex-row items-center justify-center w-full gap-1 sm:gap-8 sm:px-8"
         v-if="showMenu"
       >
         <NuxtLink to="/" class="nav-link hover:text-yellow-400">Home</NuxtLink>
@@ -76,18 +77,11 @@
           >Car Rentals</NuxtLink
         >
       </div>
-      <!-- </div> -->
     </nav>
   </header>
 </template>
 
-<style scoped>
-@media (min-width: 1280px) {
-  .display {
-    width: 1280;
-  }
-}
-</style>
+<style scoped></style>
 
 <script setup>
 import { ref } from "vue";

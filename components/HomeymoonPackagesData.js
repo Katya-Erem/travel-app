@@ -1,6 +1,6 @@
 export const HoneyMoonPackageData = [
   {
-    name: "Chitral, Kalash & Hunza",
+    name: "Chitral, Kalash & Hunza Skardu",
     signature: "10 Days 9 Nights",
     estimation: 3.35,
     signboard: "ITINERARY",

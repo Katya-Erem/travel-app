@@ -1,11 +1,13 @@
 <template>
   <div>
-    <div class="flex flex-col bg-white shadow-xl rounded-2xl p-2 w-[330px]">
+    <div
+      class="flex flex-col bg-white shadow-xl rounded-2xl p-3 w-[250px] sm:w-[300px] md:w-[350px]"
+    >
       <img :src="card.img" alt="" class="pb-1 brightness-75" />
       <div class="p-2">
-        <h2 class="font-semibold text-lg">{{ card.name }}</h2>
+        <h2 class="font-semibold text-base sm:text-lg">{{ card.name }}</h2>
         <span class="flex justify-between items-center pb-2 pt-1">
-          <p>{{ card.signature }}</p>
+          <p class="text-sm sm:text-base">{{ card.signature }}</p>
           <Rating :value="card.estimation" />
         </span>
       </div>

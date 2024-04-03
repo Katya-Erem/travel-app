@@ -9,7 +9,7 @@
       </div>
       <HoneymoonPackages />
     </div>
-    <WhyChooseUs />
+    <!-- <WhyChooseUs /> -->
   </div>
 </template>
 

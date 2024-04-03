@@ -9,14 +9,14 @@
       <div class="absolute min-w-full">
         <Header />
         <div
-          class="flex flex-col lg:mt-9 xl:mt-36 text-center items-center justify-center"
+          class="flex flex-col mt-9 xl:mt-32 text-center items-center justify-center"
         >
           <h1
-            class="text-white text-4xl sm:text-5xl md:text-[54px] lg:text-[75px] 2xl:text-[100px] lg:my-0 2xl:my-14 font-semibold p-9 sm:p-10 md:p-11 lg:p-12 xl:p-20 2xl:p-28 flex"
+            class="text-white text-4xl sm:text-5xl md:text-[54px] lg:text-[75px] 2xl:text-[100px] lg:my-0 2xl:my-14 font-semibold p-5 sm:p-10 md:p-11 lg:p-12 xl:p-20 2xl:p-28 flex"
           >
             See Pakistan Tours
           </h1>
-          <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-2 md:gap-3">
             <h3
               class="text-yellow-400 font-medium text-lg sm:text-xl md:text-2xl xl:text-3xl 2xl:text-4xl p-3"
             >

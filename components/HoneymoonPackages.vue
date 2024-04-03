@@ -1,5 +1,7 @@
 <template>
-  <nav class="pb-28 container m-auto flex flex-col items-center">
+  <nav
+    class="pb-10 sm:pb-16 md:pb-20 lg:pb-24 container m-auto flex flex-col items-center"
+  >
     <div
       class="flex-col items-center gap-[18px] flex max-w-[872px] mx-auto px-10 sm:px-12 lg:px-14 xl:рx-26 2xl:рx-20"
     >
@@ -21,7 +23,7 @@
       </div>
     </div>
     <div class="p-5 lg:p-9">
-      <div class="flex flex-row flex-wrap gap-4 justify-center">
+      <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center">
         <HoneymoonCard v-for="card in HoneyMoonPackageData" :card="card" />
       </div>
     </div>

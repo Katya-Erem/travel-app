@@ -7,7 +7,7 @@ export const HoneyMoonPackageData = [
     img: "/images/honeymoon1.png",
   },
   {
-    name: "Chitral, Valley & Kalash Valley",
+    name: "Chitral & Kalash Valley",
     signature: "4 Days 3 Nights",
     estimation: 5,
     signboard: "ITINERARY",

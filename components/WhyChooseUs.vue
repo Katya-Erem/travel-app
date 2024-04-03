@@ -1,12 +1,12 @@
 <template>
   <div>
     <div
-      class="pb-28 md:pb-32 lg:pb-36 xl:pb-44 px-0 flex relative m-auto max-w-full"
+      class="sm:pb-28 md:pb-32 lg:pb-36 xl:pb-44 px-0 flex relative m-auto max-w-full"
     >
       <img
         src="/images/why_choose.png"
         alt=""
-        class="h-96 md:h-[430px] lg:h-[500px] w-full object-cover"
+        class="h-52 sm:h-96 md:h-[430px] lg:h-[500px] w-full object-cover"
       />
       <div class="absolute text-white min-w-full flex">
         <div class="absolute min-w-full my-8 lg:my-11">
@@ -20,7 +20,7 @@
                 hassle. We are providing the best competitive tour services.
               </h3>
               <div
-                class="flex m-auto justify-between lg:h-11 px-4 lg:px-8 gap-4 lg:gap-8"
+                class="hidden sm:flex flex-col sm:flex-row m-auto justify-between lg:h-11 px-4 lg:px-8 gap-4 lg:gap-8"
               >
                 <WhyChooseUsItem
                   v-for="itemChoose in WhyChooseUsData"
@@ -31,6 +31,14 @@
           </div>
         </div>
       </div>
+    </div>
+    <div
+      class="sm:hidden max-w-[450px] flex flex-col m-auto justify-between py-10 px-4 gap-4"
+    >
+      <WhyChooseUsItem
+        v-for="itemChoose in WhyChooseUsData"
+        :itemChoose="itemChoose"
+      />
     </div>
   </div>
 </template>

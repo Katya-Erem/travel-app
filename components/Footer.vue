@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-full w-full bg-zinc-900 p-6 sm:p-6 md:p-10 lg:p-12 xl:p-16 2xl:p-[65px]"
+    class="w-full bg-zinc-900 p-6 sm:p-6 md:p-10 lg:p-12 xl:p-16 2xl:p-[65px]"
   >
     <div class="flex flex-col gap-2 sm:flex-row justify-between xl:pb-2">
       <div class="pr-6">
